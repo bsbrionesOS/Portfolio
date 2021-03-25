@@ -78,10 +78,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -100,26 +96,17 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Operation Spark",
+      logo: require("./assets/images/operationSparkLogo.png"),
+      subHeader: "Immersive software engineering program",
+      duration: "Feb 2020 - Oct 2020",
+      desc: "IBC Fundamentals of Javascript, Functional programming, Web Development Level 3",
+      // descBullets: [
+      //   "Developed Potential Sound PuppyLove JukeJams"
+      // ]
     }
   ]
 };
@@ -140,6 +127,10 @@ const techStack = {
     {
       Stack: "Programming",
       progressPercentage: "90%"
+    },
+    {
+      Stack: "Database",
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -148,7 +139,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -310,7 +301,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -349,15 +340,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  number: "(504) 738 4921",
+  email_address: "bsbrionesos@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
